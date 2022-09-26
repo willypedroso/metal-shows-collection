@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(163, 14, 183));
+  background-attachment: fixed;
+  height: 100vh;
+}
