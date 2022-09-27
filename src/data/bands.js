@@ -27,6 +27,58 @@ const bands = [
         name: "Krisiun",
         path: "/krisiun"
     },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
+    },
 ];
 
 export default bands;
