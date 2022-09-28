@@ -2,7 +2,7 @@ import { SERVER_PROPS_ID } from "next/dist/shared/lib/constants";
 
 export default function Card(props) {
     return (
-        <div className="w-[500px] min-h-[300px]
+        <div className="w-[400px] min-h-[300px]
             rounded-lg bg-red-900
             flex flex-col justify-center align-middle m-2
             border-black border-2 shadow-lg shadow-black">
