@@ -7,6 +7,7 @@ import Menu from "../components/Menu";
 export default function custom404() {
     return (
         <div>
+            <title>Oops... page not found</title>
             <Header/>
             <Menu/>
             <Main title="Oops... This band is not in our collection yet.">
