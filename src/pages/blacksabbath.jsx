@@ -12,11 +12,11 @@ export default function BlackSabbath() {
                 <Menu/>
                 <Main title="Black Sabbath">
                     <Card title="Paris - 1970">
-                        <iframe className="rounded-md m-2" width="560" height="315" src="https://www.youtube.com/embed/Xqjify__PWw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="rounded-md m-2" width="480" height="280" src="https://www.youtube.com/embed/Xqjify__PWw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </Card>
 
                     <Card title="Hammersmith - 1978">
-                        <iframe className="rounded-md m-2" width="560" height="315" src="https://www.youtube.com/embed/L6U5-CSc_7c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe className="rounded-md m-2" width="480" height="280" src="https://www.youtube.com/embed/L6U5-CSc_7c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </Card>
                 </Main>
             </div>
