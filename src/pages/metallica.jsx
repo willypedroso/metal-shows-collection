@@ -18,6 +18,10 @@ export default function Metallica() {
                     <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/cNcV30ulSXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </Card>
 
+                <Card title="Rio de Janeiro - 2011">
+                    <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/_zg7OpXIwAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </Card>
+
                 <Card title="Berlin - 2019">
                     <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/s_hYeCZo2Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </Card>
