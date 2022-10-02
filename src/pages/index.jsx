@@ -42,6 +42,10 @@ export default function Home() {
             <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/pSsuUYDYR-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Card>
 
+        <Card title="Seattle - 1989">
+            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/1DshNu26z4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </Card>
+
         <Card title="Moscow - 2016">
             <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/79yEJVk7CDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Card>
