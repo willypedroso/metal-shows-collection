@@ -6,6 +6,7 @@ import Menu from "../components/Menu";
 export default function Anthrax() {
     return (
         <div>
+            <title>MSC - Anthrax</title>
             <Header/>
             <Menu/>
             <Main title="Anthrax">

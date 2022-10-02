@@ -6,6 +6,7 @@ import Menu from "../components/Menu";
 export default function Motorhead() {
     return (
         <div>
+            <title>MSC - Motörhead</title>
             <Header/>
             <Menu/>
             <Main title="Motörhead">

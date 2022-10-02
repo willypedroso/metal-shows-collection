@@ -6,6 +6,7 @@ import Menu from "../components/Menu";
 export default function Krisiun() {
     return (
         <div>
+            <title>MSC - Krisiun</title>
             <Header/>
             <Menu/>
             <Main title="Krisiun">
