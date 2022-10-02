@@ -1,32 +1,32 @@
 const bands = [
     {
+        name: "Anthrax",
+        path: "/anthrax"
+    },
+    {
         name: "Black Sabbath",
         path: "/blacksabbath"
+    },
+    {
+        name: "Krisiun",
+        path: "/krisiun"
     },
     {
         name: "Metallica",
         path: "/metallica"
     },
     {
-        name: "Slayer",
-        path: "/slayer"
-    },
-    {
         name: "Motörhead",
         path: "/motorhead"
-    },
-    {
-        name: "Anthrax",
-        path: "/anthrax"
     },
     {
         name: "Sepultura",
         path: "/sepultura"
     },
     {
-        name: "Krisiun",
-        path: "/krisiun"
-    }
+        name: "Slayer",
+        path: "/slayer"
+    },
 ];
 
 export default bands;
