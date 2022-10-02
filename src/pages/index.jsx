@@ -10,6 +10,10 @@ export default function Home() {
       <Header/>
       <Menu/>
       <Main title="Recently added">
+        <Card title="Donington - 1992">
+            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/MYOnUghrV9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Card>
+
         <Card title="PinkPop 1996">
             <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/CBwgf8NRFhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Card>
