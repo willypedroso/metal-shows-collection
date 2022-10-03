@@ -27,6 +27,10 @@ const bands = [
         name: "Slayer",
         path: "/slayer"
     },
+    {
+        name: "Venom",
+        path: "/venom"
+    },
 ];
 
 export default bands;

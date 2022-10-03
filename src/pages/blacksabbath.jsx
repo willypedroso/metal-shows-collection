@@ -6,30 +6,20 @@ import Card from "../components/Card";
 export default function BlackSabbath() {
     return (
         <div>
-            <title>MSC - Back Sabbath</title>
+            <title>MSC - Black Sabbath</title>
             <Header/>
             <div className="flex">
                 <Menu/>
                 <Main title="Black Sabbath">
-                    <Card title="Paris - 1970">
-                        <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/Xqjify__PWw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </Card>
+                    <Card title="Paris - 1970" url="Xqjify__PWw"/>
 
-                    <Card title="Hammersmith - 1978">
-                        <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/L6U5-CSc_7c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </Card>
+                    <Card title="Hammersmith - 1978" url="L6U5-CSc_7c"/>
                     
-                    <Card title="Donington - 2005">
-                        <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/D9yawWUIit0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </Card>
+                    <Card title="Donington - 2005" url="D9yawWUIit0"/>
                     
-                    <Card title="London - 1999">
-                        <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/pSsuUYDYR-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </Card>
+                    <Card title="London - 1999" url="pSsuUYDYR-k"/>
 
-                    <Card title="Moscow - 2016">
-                        <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/79yEJVk7CDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                    </Card>
+                    <Card title="Moscow - 2016" url="79yEJVk7CDE"/>
                 </Main>
             </div>
         </div>

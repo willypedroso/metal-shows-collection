@@ -10,9 +10,11 @@ export default function Krisiun() {
             <Header/>
             <Menu/>
             <Main title="Krisiun">
-                <Card title="Rockfun - 2020">
-                    <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/PQ6UlYOxh6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                </Card>
+                <Card title="Rockfun - 2020" url="PQ6UlYOxh6M"/>
+
+                <Card title="Kiss Club - 2020" url="QjVIhbJFulw"/>
+                
+                <Card title="Rock in Rio - 2013" url="yYr5W7-wlBY"/>
             </Main>
         </div>
     )

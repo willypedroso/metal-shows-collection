@@ -7,7 +7,9 @@ export default function Card(props) {
             flex flex-col justify-center align-middle m-2
             border-black border-2 shadow-lg shadow-black">
             <h2 className="text-center mt-2 font-creeper text-2xl">{props.title}</h2>
-            <span className="self-center">{props.children}</span>
+            <span className="self-center">
+            <iframe className="rounded-md m-2" width="380" height="280" src={`https://www.youtube.com/embed/${props.url}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </span>
         </div>
     )
 }

@@ -10,69 +10,37 @@ export default function Home() {
       <Header/>
       <Menu/>
       <Main title="Recently added">
-        <Card title="Donington - 1992">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/MYOnUghrV9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Donington - 1992" url="MYOnUghrV9Q"/>
 
-        <Card title="PinkPop 1996">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/CBwgf8NRFhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="PinkPop 1996" url="CBwgf8NRFhI"/>
 
-        <Card title="Hammersmith - 1985">
-          <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/GeXGW1yXgDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Hammersmith - 1985" url="GeXGW1yXgDg"/>
 
-        <Card title="Rockfun - 2020">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/PQ6UlYOxh6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Rockfun - 2020" url="PQ6UlYOxh6M"/>
 
-        <Card title="Hammersmith - 1987">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/h482wa1eHbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Hammersmith - 1987" url="h482wa1eHbE"/>
 
-        <Card title="Moscow - 1991">
-          <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/C0xcvOEXqrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Moscow - 1991" url="C0xcvOEXqrk"/>
 
-        <Card title="Paris - 1970">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/Xqjify__PWw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Paris - 1970" url="Xqjify__PWw"/>
 
-        <Card title="Mexico City - 1993">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/cNcV30ulSXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Mexico City - 1993" url="cNcV30ulSXs"/>
 
-        <Card title="Hammersmith - 1978">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/L6U5-CSc_7c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Hammersmith - 1978" url="L6U5-CSc_7c"/>
 
-        <Card title="Berlin - 2019">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/s_hYeCZo2Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Berlin - 2019" url="s_hYeCZo2Nw"/>
 
-        <Card title="Wacken 2019">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/QcGXJ7ZgvPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Wacken 2019" url="QcGXJ7ZgvPk"/>
         
-        <Card title="Donington - 2005">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/D9yawWUIit0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Donington - 2005" url="D9yawWUIit0"/>
 
-        <Card title="Rio de Janeiro - 2011">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/_zg7OpXIwAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Rio de Janeiro - 2011" url="_zg7OpXIwAw"/>
         
-        <Card title="London - 1999">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/pSsuUYDYR-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="London - 1999" url="pSsuUYDYR-k"/>
 
-        <Card title="Seattle - 1989">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/1DshNu26z4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Seattle - 1989" url="1DshNu26z4A"/>
 
-        <Card title="Moscow - 2016">
-            <iframe className="rounded-md m-2" width="380" height="280" src="https://www.youtube.com/embed/79yEJVk7CDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </Card>
+        <Card title="Moscow - 2016" url="79yEJVk7CDE"/>
       </Main>
     </div>
       )

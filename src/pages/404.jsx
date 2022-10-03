@@ -11,13 +11,10 @@ export default function custom404() {
             <Header/>
             <Menu/>
             <Main title="Oops... This band is not in our collection yet.">
-                <Card title="We working on that...">
-                    <Link href="/">
-                        <button className="bg-black text-orange-400 font-creeper text-[2rem] p-4 mt-4 rounded-xl hover:bg-orange-500 hover:text-black">Home</button>
-                    </Link>
-                </Card>
+                <Link href="/">
+                    <button className="bg-black text-orange-400 font-creeper text-[2rem] p-4 mt-4 rounded-xl hover:bg-orange-500 hover:text-black">Home</button>
+                </Link>
             </Main>
-
         </div>
     )
 }
