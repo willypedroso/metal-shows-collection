@@ -10,6 +10,8 @@ export default function Home() {
       <Header/>
       <Menu/>
       <Main title="Recently added">
+        <Card title="Hammersmith - 1985" url="jtwRLpYcVsA"/>
+
         <Card title="Donington - 1992" url="MYOnUghrV9Q"/>
 
         <Card title="PinkPop 1996" url="CBwgf8NRFhI"/>
@@ -18,6 +20,8 @@ export default function Home() {
 
         <Card title="Rockfun - 2020" url="PQ6UlYOxh6M"/>
 
+        <Card title="Dynamo Open Air - 1996" url="9JtJ8GdNXLc"/>
+        
         <Card title="Hammersmith - 1987" url="h482wa1eHbE"/>
 
         <Card title="Moscow - 1991" url="C0xcvOEXqrk"/>
