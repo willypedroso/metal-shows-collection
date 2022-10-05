@@ -1,6 +1,5 @@
 const bands = [
     {
-        id: 0,
         name: "Anthrax",
         path: "/anthrax",
         shows: [
@@ -14,7 +13,6 @@ const bands = [
             }]
     },
     {
-        id: 1,
         name: "Black Sabbath",
         path: "/blacksabbath",
         shows: [
@@ -41,7 +39,6 @@ const bands = [
         ]
     },
     {
-        id: 2,
         name: "Krisiun",
         path: "/krisiun",
         shows: [
@@ -60,7 +57,6 @@ const bands = [
         ]
     },
     {
-        id: 3,
         name: "Metallica",
         path: "/metallica",
         shows: [
@@ -87,7 +83,6 @@ const bands = [
         ]
     },
     {
-        id: 4,
         name: "Motörhead",
         path: "/motorhead",
         shows: [
@@ -106,7 +101,6 @@ const bands = [
         ]
     },
     {
-        id: 5,
         name: "Sepultura",
         path: "/sepultura",
         shows: [
@@ -117,7 +111,6 @@ const bands = [
         ]
     },
     {
-        id: 6,
         name: "Slayer",
         path: "/slayer",
         shows: [
@@ -128,7 +121,6 @@ const bands = [
         ]
     },
     {
-        id: 7,
         name: "Venom",
         path: "/venom",
         shows: [
