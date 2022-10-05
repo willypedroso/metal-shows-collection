@@ -13,7 +13,7 @@ export default function Venom() {
             <Header/>
             <Menu/>
             <Main title="Venom">
-                {shows.map(show => (<Card key={show.title} title={show.title} url={show.url}/>))}
+                {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
             </Main>
         </div>
     )

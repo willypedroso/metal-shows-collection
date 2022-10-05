@@ -13,7 +13,7 @@ export default function Sepultura() {
             <Header/>
             <Menu/>
             <Main title="Sepultura">
-                {shows.map(show => (<Card key={show.title} title={show.title} url={show.url}/>))}
+                {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
             </Main>
         </div>
     )

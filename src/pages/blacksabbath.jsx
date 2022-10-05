@@ -14,7 +14,7 @@ export default function BlackSabbath() {
             <div className="flex">
                 <Menu/>
                 <Main title="Black Sabbath">
-                    {shows.map(show => (<Card key={show.title} title={show.title} url={show.url}/>))}
+                    {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
                 </Main>
             </div>
         </div>

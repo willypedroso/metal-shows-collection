@@ -13,7 +13,7 @@ export default function Metallica() {
             <Header/>
             <Menu/>
             <Main title="Metallica">
-                {shows.map(show => (<Card key={show.title} title={show.title} url={show.url}/>))}
+                {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
             </Main>
         </div>
     )
