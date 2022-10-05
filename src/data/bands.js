@@ -94,6 +94,14 @@ const bands = [
             {
                 title: "Hammersmith - 1985",
                 url: "GeXGW1yXgDg"
+            },
+            {
+                title: "Buenos Aires - 1995",
+                url: "Jbrok4WrVY0"
+            },
+            {
+                title: "Wacken - 2006",
+                url: "8wP5WFZmB3A"
             }
         ]
     },
