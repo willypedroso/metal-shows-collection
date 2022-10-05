@@ -3,14 +3,17 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Menu from "../components/Menu";
 
+import bands from "../data/bands";
+
 export default function Sepultura() {
+    const shows = bands[5].shows;
     return (
         <div>
             <title>MSC - Sepultura</title>
             <Header/>
             <Menu/>
             <Main title="Sepultura">
-                <Card title="PinkPop 1996" url="CBwgf8NRFhI"/>
+                {shows.map(show => (<Card key={show.title} title={show.title} url={show.url}/>))}
             </Main>
         </div>
     )

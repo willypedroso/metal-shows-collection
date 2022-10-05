@@ -3,16 +3,17 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Menu from "../components/Menu";
 
+import bands from "../data/bands";
+
 export default function Venom() {
+    const shows = bands[7].shows;
     return (
         <div>
             <title>MSC - Venom</title>
             <Header/>
             <Menu/>
             <Main title="Venom">
-                <Card title="Hammersmith - 1985" url="jtwRLpYcVsA"/>
-
-                <Card title="Dynamo Open Air - 1996" url="9JtJ8GdNXLc"/>
+                {shows.map(show => (<Card key={show.title} title={show.title} url={show.url}/>))}
             </Main>
         </div>
     )
