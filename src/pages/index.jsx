@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Menu from "../components/Menu";
 
 import bands from "../data/bands";
+import { useEffect, useState } from "react";
 
 export default function Home() {
 
@@ -13,7 +14,21 @@ export default function Home() {
     allShows.push(bands[i].shows);
   }
 
-  let shows = allShows.reduce((a,b) => a.concat(b));
+  let showsConcat = allShows.reduce((a,b) => a.concat(b));
+
+  function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  const [shows, setShows] = useState([])
+
+  useEffect(() => {
+    setShows(shuffleArray(showsConcat));
+  }, [])
 
   return (
     <div>
@@ -21,7 +36,7 @@ export default function Home() {
       <Header/>
       <Menu/>
       <Main title="All collection">
-        {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
+        {shows ? shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>)) : false}
       </Main>
     </div>
       )
