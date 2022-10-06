@@ -9,6 +9,7 @@ import bands from "../data/bands";
 export default function BlackSabbath() {
     const band = "Black Sabbath";
     const [shows, setShows] = useState([]);
+    const [render, setRender] = useState(false);
 
     useEffect(() => {
         for(let i=0; i<bands.length; i++) {
@@ -16,18 +17,17 @@ export default function BlackSabbath() {
                 setShows(bands[i].shows)
             }
         }
+        setRender(true);
     }, [])
 
     return (
         <div>
-            <title>MSC - Black Sabbath</title>
+            <title>MSC - {render ? band : false}</title>
             <Header/>
-            <div className="flex">
-                <Menu/>
-                <Main title="Black Sabbath">
-                    {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
-                </Main>
-            </div>
+            <Menu/>
+            <Main title={render ? band : false}>
+                {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
+            </Main>
         </div>
     )
 }
