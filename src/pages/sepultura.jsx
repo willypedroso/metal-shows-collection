@@ -9,6 +9,7 @@ import bands from "../data/bands";
 export default function Sepultura() {
     const band = "Sepultura";
     const [shows, setShows] = useState([]);
+    const [render, setRender] = useState(false);
     
     useEffect(() => {
         for(let i=0; i<bands.length; i++) {
@@ -16,14 +17,15 @@ export default function Sepultura() {
                 setShows(bands[i].shows);
             }
         }
+        setRender(true)
     }, []);
 
     return (
         <div>
-            <title>MSC - Sepultura</title>
+            <title>MSC - {render ? band : false}</title>
             <Header/>
             <Menu/>
-            <Main title="Sepultura">
+            <Main title={render ? band : false}>
                 {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
             </Main>
         </div>
