@@ -39,6 +39,20 @@ const bands = [
         ]
     },
     {
+        name: "Cannibal Corpse",
+        path: "/cannibalcorpse",
+        shows: [
+            {
+                title: "Houston - 1994",
+                url: "lVVQp_-VHI4"
+            },
+            {
+                title: "Bloodstock - 2018",
+                url: "AKAGz4IFYxk"
+            }
+        ]
+    },
+    {
         name: "Krisiun",
         path: "/krisiun",
         shows: [
