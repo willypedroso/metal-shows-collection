@@ -53,6 +53,20 @@ const bands = [
         ]
     },
     {
+        name: "Death",
+        path: "/death",
+        shows: [
+            {
+                title: "Philadelphia - 1988",
+                url: "ArTErc-YAXs"
+            },
+            {
+                title: "Eindhoven - 1998",
+                url: "s8noWn0FqPs"
+            },
+        ]
+    },
+    {
         name: "Iron Maiden",
         path: "/ironmaiden",
         shows: [
