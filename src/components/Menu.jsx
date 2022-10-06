@@ -10,7 +10,7 @@ export default function Menu() {
     }
 
     return (
-        <nav className={visibleMenu ? "absolute min-h-[90.3vh] min-w-[300px] w-1/5 bg-gray-900 text-white text-2xl" : "absolute left-1"}>
+        <nav className={visibleMenu ? "absolute min-w-[300px] w-1/5 bg-gray-900 text-white text-2xl" : "absolute left-1"}>
             <ul>
                 <li className="font-creeper
                         min-w-full mt-2 p-3

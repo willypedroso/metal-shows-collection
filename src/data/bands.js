@@ -53,6 +53,24 @@ const bands = [
         ]
     },
     {
+        name: "Iron Maiden",
+        path: "/ironmaiden",
+        shows: [
+            {
+                title: "Hammersmith - 1982",
+                url: "ZfU_zLWsh6I"
+            },
+            {
+                title: "Rock in Rio - 2001",
+                url: "BXPxPV-CSBk"
+            },
+            {
+                title: "Rock am Ring - 2014",
+                url: "qVcKRF5y7s0"
+            }
+        ]
+    },
+    {
         name: "Krisiun",
         path: "/krisiun",
         shows: [
