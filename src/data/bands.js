@@ -71,6 +71,24 @@ const bands = [
         ]
     },
     {
+        name: "Judas Priest",
+        path: "/judaspriest",
+        shows: [
+            {
+                title: "US Festival - 1983",
+                url: "VIko-mZ2tUU"
+            },
+            {
+                title: "Rock in Rio - 1991",
+                url: "i7crsfJllWo"
+            },
+            {
+                title: "California - 1991",
+                url: "K_UUD_Tc144"
+            }
+        ]
+    },
+    {
         name: "Krisiun",
         path: "/krisiun",
         shows: [
