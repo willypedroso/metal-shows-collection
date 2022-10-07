@@ -36,7 +36,7 @@ export default function Home() {
       <Header/>
       <Menu/>
       <Main title="All collection">
-        {shows ? shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>)) : false}
+        {shows ? shows.map(show => (<Card key={show.url} titleBand={show.band} titleShow={show.title} url={show.url}/>)) : false}
       </Main>
     </div>
       )
