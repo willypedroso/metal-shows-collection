@@ -26,7 +26,7 @@ export default function Venom() {
             <Header/>
             <Menu/>
             <Main title={render ? band : false}>
-                {shows.map(show => (<Card key={show.url} title={show.title} url={show.url}/>))}
+                {shows.map(show => (<Card key={show.url} titleShow={show.title} url={show.url}/>))}
             </Main>
         </div>
     )
