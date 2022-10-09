@@ -78,6 +78,17 @@ const bands = [
         ]
     },
     {
+        name: "Helloween",
+        path: "/helloween",
+        shows: [
+            {
+                band: "Helloween",
+                title: "Köln - 1992",
+                url: "vILAdjGmfaU"
+            }
+        ]
+    },
+    {
         name: "Iron Maiden",
         path: "/ironmaiden",
         shows: [
