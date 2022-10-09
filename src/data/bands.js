@@ -275,6 +275,17 @@ const bands = [
         ]
     },
     {
+        name: "Sodom",
+        path: "/sodom",
+        shows: [
+            {
+                band: "Sodom",
+                title: "Braunschweig - 1988",
+                url: "FmWRkb_x5po"
+            }
+        ]
+    },
+    {
         name: "Venom",
         path: "/venom",
         shows: [
