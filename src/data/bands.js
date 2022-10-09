@@ -204,12 +204,23 @@ const bands = [
         ]
     },
     {
+        name: "Sarcófago",
+        path: "/sarcofago",
+        shows: [
+            {
+                band: "Sarcófago",
+                title: "Belo Horizonte - 1991",
+                url: "kQcqvrTmhoo"
+            }
+        ]   
+    },
+    {
         name: "Sepultura",
         path: "/sepultura",
         shows: [
             {
                 band: "Sepultura",
-                title: "PinkPop 1996",
+                title: "PinkPop - 1996",
                 url: "CBwgf8NRFhI"
             }
         ]
