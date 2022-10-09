@@ -163,6 +163,17 @@ const bands = [
         ]
     },
     {
+        name: "Megadeth",
+        path: "/megadeth",
+        shows: [
+            {
+                band: "Megadeth",
+                title: "Italy - 1992",
+                url: "hL-MRKUtv0M"
+            }
+        ]
+    },
+    {
         name: "Metallica",
         path: "/metallica",
         shows: [
