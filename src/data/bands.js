@@ -193,6 +193,17 @@ const bands = [
         ]
     },
     {
+        name: "Obituary",
+        path: "/obituary",
+        shows: [
+            {
+                band: "Obituary",
+                title: "Bloodstock - 2017",
+                url: "heHrSkccb3E"
+            }
+        ]
+    },
+    {
         name: "Sepultura",
         path: "/sepultura",
         shows: [
