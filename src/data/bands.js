@@ -220,6 +220,17 @@ const bands = [
         ]
     },
     {
+        name: "Running Wild",
+        path: "/runningwild",
+        shows: [
+            {
+                band: "Running Wild",
+                title: "Bochum - 1985",
+                url: "suhLVpXUsqc"
+            }
+        ]
+    },
+    {
         name: "Sarcófago",
         path: "/sarcofago",
         shows: [
