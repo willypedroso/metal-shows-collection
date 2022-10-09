@@ -297,6 +297,17 @@ const bands = [
         ]
     },
     {
+        name: "Tankard",
+        path: "/tankard",
+        shows: [
+            {
+                band: "Tankard",
+                title: "Braunschweig - 1988",
+                url: "sVDmMmtcW24"
+            }
+        ]
+    },
+    {
         name: "Venom",
         path: "/venom",
         shows: [
