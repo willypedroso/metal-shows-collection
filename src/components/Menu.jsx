@@ -14,7 +14,7 @@ export default function Menu() {
             <ul>
                 <li className="font-creeper
                         min-w-full mt-2 p-3
-                        bg-orange-600 text-black cursor-pointer hover:translate-x-2" onClick={visibleChange}>Bands</li>
+                        bg-orange-600 text-black cursor-pointer hover:translate-x-2" onClick={visibleChange}>All Bands</li>
                 {visibleMenu ? bands.map((band, i) => (
                     <Link key={i} href={band.path}><li className="font-creeper bg-black
                         min-w-full mt-2 p-3 cursor-pointer

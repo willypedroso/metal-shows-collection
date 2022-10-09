@@ -40,9 +40,9 @@ export default function Home() {
       <Header/>
       <Menu/>
       <Main title="All collection">
-        {shows && !displayAll ? [allShowsCollect[0], allShowsCollect[1], allShowsCollect[2], allShowsCollect[3], allShowsCollect[4], allShowsCollect[5]] : false}
+        {shows ? allShowsCollect.splice(0, 6) : false}
 
-        {!displayAll ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Show All</button> : false}
+        {!displayAll ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Display All the {allShowsCollect.length} shows</button> : false}
 
         {displayAll ? allShowsCollect : false}
       </Main>
