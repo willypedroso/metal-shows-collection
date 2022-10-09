@@ -146,6 +146,11 @@ const bands = [
         shows: [
             {
                 band: "Metallica",
+                title: "Metal Hammer Fest - 1985",
+                url: "-Olhlc19ZeQ"
+            },
+            {
+                band: "Metallica",
                 title: "Seattle - 1989",
                 url: "1DshNu26z4A"
             },

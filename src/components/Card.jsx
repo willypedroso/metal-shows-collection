@@ -1,5 +1,3 @@
-import { SERVER_PROPS_ID } from "next/dist/shared/lib/constants";
-
 export default function Card(props) {
     return (
         <div className="w-[400px] min-h-[300px]
