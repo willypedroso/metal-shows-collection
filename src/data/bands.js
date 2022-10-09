@@ -131,6 +131,17 @@ const bands = [
         ]
     },
     {
+        name: "Kreator",
+        path: "/kreator",
+        shows: [
+            {
+                band: "Kreator",
+                title: "East Berlin - 1990",
+                url: "3CuPIz5r0uU"
+            }
+        ]
+    },
+    {
         name: "Krisiun",
         path: "/krisiun",
         shows: [
