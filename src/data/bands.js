@@ -281,7 +281,7 @@ const bands = [
     {
         name: "Sepultura",
         path: "/sepultura",
-        gender: "Thrash Metal",
+        gender: "Thrash Metal Death Metal",
         shows: [
             {
                 band: "Sepultura",

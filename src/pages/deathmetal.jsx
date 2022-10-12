@@ -21,7 +21,7 @@ export default function DeathMetal() {
       }
       
       for(let i=0; i<bands.length; i++) {
-          if(bands[i].gender == gender) {
+          if(bands[i].gender.includes(gender)) {
               allShows.push(bands[i].shows)
           }
       }
