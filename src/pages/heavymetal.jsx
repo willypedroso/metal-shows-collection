@@ -6,8 +6,8 @@ import Menu from "../components/Menu";
 
 import bands from "../data/bands";
 
-export default function ThrashMetal() {
-    const gender = "Thrash Metal";
+export default function HeavyMetal() {
+    const gender = "Heavy Metal";
     const [shows, setShows] = useState([]);
     const [render, setRender] = useState(false);
     let allShows = [];
