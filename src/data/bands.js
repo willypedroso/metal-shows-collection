@@ -2,6 +2,7 @@ const bands = [
     {
         name: "Anthrax",
         path: "/anthrax",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Anthrax",
@@ -17,6 +18,7 @@ const bands = [
     {
         name: "Black Sabbath",
         path: "/blacksabbath",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Black Sabbath",
@@ -48,6 +50,7 @@ const bands = [
     {
         name: "Cannibal Corpse",
         path: "/cannibalcorpse",
+        gender: "Death Metal",
         shows: [
             {
                 band: "Cannibal Corpse",
@@ -64,6 +67,7 @@ const bands = [
     {
         name: "Death",
         path: "/death",
+        gender: "Death Metal",
         shows: [
             {
                 band: "Death",
@@ -80,6 +84,7 @@ const bands = [
     {
         name: "Helloween",
         path: "/helloween",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Helloween",
@@ -91,6 +96,7 @@ const bands = [
     {
         name: "Iron Maiden",
         path: "/ironmaiden",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Iron Maiden",
@@ -112,6 +118,7 @@ const bands = [
     {
         name: "Judas Priest",
         path: "/judaspriest",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Judas Priest",
@@ -133,6 +140,7 @@ const bands = [
     {
         name: "Kreator",
         path: "/kreator",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Kreator",
@@ -144,6 +152,7 @@ const bands = [
     {
         name: "Krisiun",
         path: "/krisiun",
+        gender: "Death Metal",
         shows: [
             {
                 band: "Krisiun",
@@ -165,6 +174,7 @@ const bands = [
     {
         name: "Megadeth",
         path: "/megadeth",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Megadeth",
@@ -176,6 +186,7 @@ const bands = [
     {
         name: "Metallica",
         path: "/metallica",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Metallica",
@@ -212,6 +223,7 @@ const bands = [
     {
         name: "Motörhead",
         path: "/motorhead",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Motörhead",
@@ -233,6 +245,7 @@ const bands = [
     {
         name: "Obituary",
         path: "/obituary",
+        gender: "Death Metal",
         shows: [
             {
                 band: "Obituary",
@@ -244,6 +257,7 @@ const bands = [
     {
         name: "Running Wild",
         path: "/runningwild",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Running Wild",
@@ -255,6 +269,7 @@ const bands = [
     {
         name: "Sarcófago",
         path: "/sarcofago",
+        gender: "Death Metal",
         shows: [
             {
                 band: "Sarcófago",
@@ -266,6 +281,7 @@ const bands = [
     {
         name: "Sepultura",
         path: "/sepultura",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Sepultura",
@@ -277,6 +293,7 @@ const bands = [
     {
         name: "Slayer",
         path: "/slayer",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Slayer",
@@ -288,6 +305,7 @@ const bands = [
     {
         name: "Sodom",
         path: "/sodom",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Sodom",
@@ -299,6 +317,7 @@ const bands = [
     {
         name: "Tankard",
         path: "/tankard",
+        gender: "Thrash Metal",
         shows: [
             {
                 band: "Tankard",
@@ -310,6 +329,7 @@ const bands = [
     {
         name: "Venom",
         path: "/venom",
+        gender: "Heavy Metal",
         shows: [
             {
                 band: "Venom",
