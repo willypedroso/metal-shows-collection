@@ -18,7 +18,7 @@ const bands = [
     {
         name: "Black Sabbath",
         path: "/blacksabbath",
-        gender: "Heavy Metal",
+        gender: "Heavy Metal Doom Metal",
         shows: [
             {
                 band: "Black Sabbath",
@@ -84,7 +84,7 @@ const bands = [
     {
         name: "Helloween",
         path: "/helloween",
-        gender: "Heavy Metal",
+        gender: "Heavy Metal Power Metal",
         shows: [
             {
                 band: "Helloween",
@@ -257,7 +257,7 @@ const bands = [
     {
         name: "Running Wild",
         path: "/runningwild",
-        gender: "Heavy Metal",
+        gender: "Heavy Metal Power Metal",
         shows: [
             {
                 band: "Running Wild",
@@ -269,7 +269,7 @@ const bands = [
     {
         name: "Sarcófago",
         path: "/sarcofago",
-        gender: "Death Metal",
+        gender: "Black Metal Death Metal",
         shows: [
             {
                 band: "Sarcófago",
@@ -329,7 +329,7 @@ const bands = [
     {
         name: "Venom",
         path: "/venom",
-        gender: "Heavy Metal",
+        gender: "Heavy Metal Black Metal",
         shows: [
             {
                 band: "Venom",

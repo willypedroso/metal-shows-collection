@@ -44,7 +44,7 @@ export default function ThrashMetal() {
       <Main title={gender}>
         {shows ? allShowsCollect.splice(0, 6) : false}
 
-        {!displayAll ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Display All the {allShowsCollect.length+6} shows</button> : false}
+        {!displayAll && allShowsCollect.length > 0 ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Display All the {allShowsCollect.length+6} shows</button> : false}
 
         {displayAll ? allShowsCollect : false}
       </Main>

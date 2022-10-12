@@ -6,8 +6,8 @@ import Menu from "../components/Menu";
 
 import bands from "../data/bands";
 
-export default function DeathMetal() {
-    const gender = "Death Metal";
+export default function BlackMetal() {
+    const gender = "Black Metal";
     const [shows, setShows] = useState([]);
     const [render, setRender] = useState(false);
     let allShows = [];
@@ -29,7 +29,7 @@ export default function DeathMetal() {
 
     useEffect(() => {
         setShows(shuffleArray(showsConcat));
-        setRender(true);
+        setRender(true)
     }, []);
     
     const allShowsCollect = shows.map(show => (<Card key={show.url} titleBand={show.band} titleShow={show.title} url={show.url}/>));
