@@ -42,6 +42,11 @@ const bands = [
             },
             {
                 band: "Black Sabbath",
+                title: "Philadelphia - 2013",
+                url: "yHPNEr3CWuA"
+            },
+            {
+                band: "Black Sabbath",
                 title: "Moscow - 2016",
                 url: "79yEJVk7CDE"
             }

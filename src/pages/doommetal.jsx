@@ -34,7 +34,7 @@ export default function DoomMetal() {
     
     const allShowsCollect = shows.map(show => (<Card key={show.url} titleBand={show.band} titleShow={show.title} url={show.url}/>));
 
-  const [displayAll, setDisplayAll] = useState(false);
+    const [displayAll, setDisplayAll] = useState(false);
 
   return (
     <div>

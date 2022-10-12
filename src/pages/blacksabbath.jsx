@@ -20,14 +20,22 @@ export default function BlackSabbath() {
         setRender(true);
     }, [])
 
-    return (
-        <div>
-            <title>MSC - {render ? band : false}</title>
-            <Header/>
-            <Menu/>
-            <Main title={render ? band : false}>
-                {shows.map(show => (<Card key={show.url} titleShow={show.title} url={show.url}/>))}
-            </Main>
-        </div>
-    )
+    const allShowsCollect = shows.map(show => (<Card key={show.url} titleBand={show.band} titleShow={show.title} url={show.url}/>));
+
+    const [displayAll, setDisplayAll] = useState(false);
+
+  return (
+    <div>
+      <title>MSC - {render ? band : false}</title>
+      <Header/>
+      <Menu/>
+      <Main title={band}>
+        {shows ? allShowsCollect.splice(0, 6) : false}
+
+        {!displayAll && allShowsCollect.length > 0 ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Display All the {allShowsCollect.length+6} shows</button> : false}
+
+        {displayAll ? allShowsCollect : false}
+      </Main>
+    </div>
+      )
 }
