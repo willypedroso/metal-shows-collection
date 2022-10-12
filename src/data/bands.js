@@ -223,7 +223,7 @@ const bands = [
     {
         name: "Motörhead",
         path: "/motorhead",
-        gender: "Heavy Metal",
+        gender: "Heavy Metal Speed Metal",
         shows: [
             {
                 band: "Motörhead",
@@ -293,7 +293,7 @@ const bands = [
     {
         name: "Slayer",
         path: "/slayer",
-        gender: "Thrash Metal",
+        gender: "Thrash Metal Speed Metal",
         shows: [
             {
                 band: "Slayer",
