@@ -12,13 +12,13 @@ export default function Menu() {
     }
 
     return (
-        <nav className={visibleMenu ? "absolute min-w-[300px] w-1/5 bg-gray-900 text-white text-2xl" : "sticky  text-center top-0 left-2 w-16"}>
+        <nav className={visibleMenu ? "absolute min-w-[300px] w-1/5 bg-gray-900 text-white text-2xl" : "sticky text-center top-0 left-2 w-16"}>
             <ul>
                 <li className="font-creeper
                         min-w-full mt-2 p-3
                         bg-orange-600 text-black cursor-pointer hover:translate-x-2" onClick={visibleChange}>Menu</li>
                         {visibleMenu ? 
-                        <select className="bg-black text-orange-600 mt-3 font-creeper ml-3" onClick={e => setMenu(e.target.value)}>
+                        <select className="bg-black text-orange-600 mt-3 font-creeper ml-3" onChange={e => setMenu(e.target.value)}>
                             <option value="band">Bands</option>
                             <option value="gender">Genders</option>
                         </select>
