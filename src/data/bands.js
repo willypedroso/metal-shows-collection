@@ -143,6 +143,18 @@ const bands = [
         ]
     },
     {
+        name: "King Diamond",
+        path: "/kingdiamond",
+        genre: "Heavy Metal",
+        shows: [
+            {
+                band: "King Diamond",
+                title: "San Francisco - 1987",
+                url: "AU-P4ksJnYk"
+            }
+        ]
+    },
+    {
         name: "Kreator",
         path: "/kreator",
         genre: "Thrash Metal",
