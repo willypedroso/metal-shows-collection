@@ -185,6 +185,11 @@ const bands = [
                 band: "Megadeth",
                 title: "Italy - 1992",
                 url: "hL-MRKUtv0M"
+            },
+            {
+                band: "Megadeth",
+                title: "Woodstock - 1999",
+                url: "klNLUYhW-KI"
             }
         ]
     },
