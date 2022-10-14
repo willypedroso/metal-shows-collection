@@ -1,5 +1,27 @@
 const bands = [
     {
+        name: "Angra",
+        path: "/angra",
+        genre: "Power Metal",
+        shows: [
+            {
+                band: "Angra",
+                title: "Monsters of Rock - 1994",
+                url: "KPMKrW4jMI4"
+            },
+            {
+                band: "Angra",
+                title: "Rock Hard Festival - 1999",
+                url: "06qXgQgicxY"
+            },
+            {
+                band: "Angra",
+                title: "São Paulo - 2001",
+                url: "qqunX1rX_JM"
+            }
+        ]
+    },
+    {
         name: "Anthrax",
         path: "/anthrax",
         genre: "Thrash Metal",
@@ -13,7 +35,8 @@ const bands = [
                 band: "Anthrax",
                 title: "Wacken - 2019",
                 url: "QcGXJ7ZgvPk"
-            }]
+            }
+        ]
     },
     {
         name: "Black Sabbath",
@@ -315,7 +338,7 @@ const bands = [
     {
         name: "Running Wild",
         path: "/runningwild",
-        genre: "Heavy Metal Power Metal",
+        genre: "Heavy Metal Power Metal Speed Metal",
         shows: [
             {
                 band: "Running Wild",
@@ -327,7 +350,7 @@ const bands = [
     {
         name: "Sarcófago",
         path: "/sarcofago",
-        genre: "Black Metal Death Metal",
+        genre: "Black Metal Thrash Metal Death Metal",
         shows: [
             {
                 band: "Sarcófago",
