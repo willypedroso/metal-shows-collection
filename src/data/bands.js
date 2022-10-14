@@ -87,6 +87,18 @@ const bands = [
         ]
     },
     {
+        name: "Exodus",
+        path: "/exodus",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Exodus",
+                title: "Wacken - 2008",
+                url: "ioFC_idP_GQ"
+            }
+        ]
+    },
+    {
         name: "Helloween",
         path: "/helloween",
         genre: "Heavy Metal Power Metal",
