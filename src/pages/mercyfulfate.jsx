@@ -6,29 +6,17 @@ import Menu from "../components/Menu";
 
 import bands from "../data/bands";
 
-export default function DoomMetal() {
-    const genre = "Doom Metal";
+export default function MercyfulFate() {
+    const band = "Mercyful Fate";
     const [shows, setShows] = useState([]);
     const [render, setRender] = useState(false);
-    let allShows = [];
-
-    function shuffleArray(arr) {
-        for (let i = arr.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [arr[i], arr[j]] = [arr[j], arr[i]];
-        }
-        return arr;
-      }
-      
-      for(let i=0; i<bands.length; i++) {
-          if(bands[i].genre.includes(genre)) {
-              allShows.push(bands[i].shows)
-          }
-      }
-      let showsConcat = allShows.reduce((a,b) => a.concat(b));
 
     useEffect(() => {
-        setShows(shuffleArray(showsConcat));
+        for(let i=0; i<bands.length; i++) {
+            if(bands[i].name == band) {
+                setShows(bands[i].shows);
+            }
+        }
         setRender(true)
     }, []);
     
@@ -38,10 +26,10 @@ export default function DoomMetal() {
 
   return (
     <div>
-      <title>MSC - {render ? genre : false}</title>
+      <title>MSC - {render ? band : false}</title>
       <Header/>
       <Menu/>
-      <Main title={genre}>
+      <Main title={band}>
         {shows ? allShowsCollect.splice(0, 6) : false}
 
         {!displayAll && allShowsCollect.length > 0 ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Display All the {allShowsCollect.length+6} shows</button> : false}

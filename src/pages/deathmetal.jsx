@@ -7,7 +7,7 @@ import Menu from "../components/Menu";
 import bands from "../data/bands";
 
 export default function DeathMetal() {
-    const gender = "Death Metal";
+    const genre = "Death Metal";
     const [shows, setShows] = useState([]);
     const [render, setRender] = useState(false);
     let allShows = [];
@@ -21,7 +21,7 @@ export default function DeathMetal() {
       }
       
       for(let i=0; i<bands.length; i++) {
-          if(bands[i].gender.includes(gender)) {
+          if(bands[i].genre.includes(genre)) {
               allShows.push(bands[i].shows)
           }
       }
@@ -38,10 +38,10 @@ export default function DeathMetal() {
 
   return (
     <div>
-      <title>MSC - {render ? gender : false}</title>
+      <title>MSC - {render ? genre : false}</title>
       <Header/>
       <Menu/>
-      <Main title={gender}>
+      <Main title={genre}>
         {shows ? allShowsCollect.splice(0, 6) : false}
 
         {!displayAll && allShowsCollect.length > 0 ? <button className="bg-black text-orange-500 font-creeper p-3 text-lg rounded-md mt-2 hover:bg-orange-500 hover:text-black" onClick={() => setDisplayAll(true)}>Display All the {allShowsCollect.length+6} shows</button> : false}
