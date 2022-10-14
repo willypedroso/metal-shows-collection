@@ -301,6 +301,18 @@ const bands = [
         ]
     },
     {
+        name: "Overkill",
+        path: "/overkill",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Overkill",
+                title: "Overhausen - 2016",
+                url: "FHG_x9rvzZ4"
+            }
+        ]
+    },
+    {
         name: "Running Wild",
         path: "/runningwild",
         genre: "Heavy Metal Power Metal",
