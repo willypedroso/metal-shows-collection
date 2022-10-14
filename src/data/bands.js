@@ -304,6 +304,11 @@ const bands = [
                 band: "Slayer",
                 title: "Donington - 1992",
                 url: "MYOnUghrV9Q"
+            },
+            {
+                band: "Slayer",
+                title: "Hammersmith - 2008",
+                url: "-fNmYAl4qLA"
             }
         ]
     },
