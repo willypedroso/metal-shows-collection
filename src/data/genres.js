@@ -1,32 +1,32 @@
-const genders = [
+const genres = [
     {
-        gender: "Black Metal",
+        genre: "Black Metal",
         path: "/blackmetal"
     },
     {
-        gender: "Death Metal",
+        genre: "Death Metal",
         path: "/deathmetal"
     },
     {
-        gender: "Doom Metal",
+        genre: "Doom Metal",
         path: "/doommetal"
     },
     {
-        gender: "Heavy Metal",
+        genre: "Heavy Metal",
         path: "/heavymetal"
     },
     {
-        gender: "Power Metal",
+        genre: "Power Metal",
         path: "/powermetal"
     },
     {
-        gender: "Speed Metal",
+        genre: "Speed Metal",
         path: "/speedmetal"
     },
     {
-        gender: "Thrash Metal",
+        genre: "Thrash Metal",
         path: "/thrashmetal"
     },
 ];
 
-export default genders;
+export default genres;
