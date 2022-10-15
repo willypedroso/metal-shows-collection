@@ -318,6 +318,11 @@ const bands = [
         shows: [
             {
                 band: "Obituary",
+                title: "Tilburg - 1990",
+                url: "UTsKWvMnwr0"
+            },
+            {
+                band: "Obituary",
                 title: "Bloodstock - 2017",
                 url: "heHrSkccb3E"
             }
