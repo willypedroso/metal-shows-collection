@@ -229,6 +229,18 @@ const bands = [
         ]
     },
     {
+        name: "Korzus",
+        path: "/korzus",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Korzus",
+                title: "The Marquee Club - 1992",
+                url: "u7bR6sbsDDw"
+            }
+        ]
+    },
+    {
         name: "Megadeth",
         path: "/megadeth",
         genre: "Thrash Metal",
