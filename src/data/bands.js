@@ -163,7 +163,7 @@ const bands = [
             {
                 band: "Judas Priest",
                 title: "US Festival - 1983",
-                url: "VIko-mZ2tUU"
+                url: "LyKa_tc3Xr4"
             },
             {
                 band: "Judas Priest",
@@ -194,6 +194,11 @@ const bands = [
         path: "/kreator",
         genre: "Thrash Metal",
         shows: [
+            {
+                band: "Kreator",
+                title: "Dynamo - 1988",
+                url: "t0D6yMiB_JY"
+            },
             {
                 band: "Kreator",
                 title: "East Berlin - 1990",
@@ -361,6 +366,18 @@ const bands = [
                 band: "Sarcófago",
                 title: "Belo Horizonte - 1991",
                 url: "kQcqvrTmhoo"
+            }
+        ]   
+    },
+    {
+        name: "Saxon",
+        path: "/saxon",
+        genre: "Heavy Metal",
+        shows: [
+            {
+                band: "Saxon",
+                title: "Köln - 1990",
+                url: "EEssypV6cR8"
             }
         ]   
     },
