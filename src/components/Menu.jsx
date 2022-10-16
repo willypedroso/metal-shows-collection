@@ -32,12 +32,14 @@ export default function Menu() {
                 <input className="w-[250px] align-middle ml-[40px] mt-3 mb-1 text-black" placeholder="Search" type="text" value={textInput} onChange={e => setTextInput(e.target.value)}/>
                 : false}
 
-                {visibleMenu && menu == "band" ? filteredBands.map((band, i) => (
+                {visibleMenu && menu == "band" ? filteredBands == "" ? <li className="font-creeper bg-black text-orange-500
+                        min-w-full mt-2 p-3">Sorry! No bands match this search in our collection yet...</li> : filteredBands.map((band, i) => (
                     <Link key={i} href={band.path}><li className="font-creeper bg-black
                         min-w-full mt-2 p-3 cursor-pointer
                         hover:bg-orange-600 hover:text-black
                         hover:translate-x-2" onClick={visibleChange}>{band.name}</li></Link>
                 )): false}
+
                 {visibleMenu && menu == "genre" ? genres.map((genre, i) => (
                     <Link key={i} href={genre.path}><li className="font-creeper bg-black
                         min-w-full mt-2 p-3 cursor-pointer
