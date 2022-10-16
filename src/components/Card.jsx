@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Card(props) {
 
-    const bandPath = "/"+((props.titleBand).toLowerCase()).replace(" ","");
+    const bandPath = "/"+((props.titleBand).toLowerCase()).replace(/ /g,"");
 
     return (
         <div className="w-[400px] min-h-[300px]
