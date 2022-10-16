@@ -12,7 +12,7 @@ export default function Menu() {
     }
 
     return (
-        <nav className={visibleMenu ? "fixed top-0 left-0 h-[100vh] overflow-y-scroll overflow-x-clip min-w-[350px] w-1/5 bg-gray-900 text-white text-2xl" : "sticky text-center top-0 left-2 w-16"}>
+        <nav className={visibleMenu ? "fixed top-0 left-0 h-[100vh] overflow-y-scroll overflow-x-clip min-w-[350px] w-1/5 bg-gray-900 text-white text-2xl" : "sticky text-center top-0 mb-[-70px] left-2 w-16"}>
             <ul>
                 <li className="font-creeper
                         min-w-full mt-2 p-3
