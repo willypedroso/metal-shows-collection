@@ -2,9 +2,11 @@ import Link from "next/link";
 
 export default function Card(props) {
 
-    const bandPath = props.titleBand == "Motörhead" ? "/motorhead" :
+    const bandPath = props.titleBand ?
+                    props.titleBand == "Motörhead" ? "/motorhead" :
                     props.titleBand == "Sarcófago" ? "/sarcofago" :
-                    "/"+((props.titleBand).toLowerCase()).replace(/ /g,"");
+                    "/"+((props.titleBand).toLowerCase()).replace(/ /g,"") :
+                    "";
 
     return (
         <div className="w-[400px] min-h-[300px]

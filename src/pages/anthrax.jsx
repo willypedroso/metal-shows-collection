@@ -20,7 +20,7 @@ export default function Anthrax() {
         setRender(true)
     }, []);
     
-    const allShowsCollect = shows.map(show => (<Card key={show.url} titleBand={show.band} titleShow={show.title} url={show.url}/>));
+    const allShowsCollect = shows.map(show => (<Card key={show.url} titleShow={show.title} url={show.url}/>));
 
     const [displayAll, setDisplayAll] = useState(false);
 
