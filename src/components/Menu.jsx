@@ -12,7 +12,9 @@ export default function Menu() {
         setVisibleMenu(!visibleMenu);
     }
 
-    const filteredBands = bands.filter((band) => band.name.toLowerCase().startsWith(textInput.toLowerCase()));
+    const lowerTextInput = textInput.toLowerCase();
+
+    const filteredBands = bands.filter((band) => band.name.toLowerCase().startsWith(lowerTextInput));
 
     return (
         <nav className={visibleMenu ? "fixed top-0 left-0 h-[100vh] overflow-y-scroll overflow-x-clip min-w-[350px] w-1/5 bg-gray-900 text-white text-2xl" : "sticky text-center top-0 mb-[-70px] left-2 w-16"}>
