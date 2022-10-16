@@ -307,6 +307,23 @@ const bands = [
         ]
     },
     {
+        name: "Morbid Angel",
+        path: "/morbidangel",
+        genre: "Death Metal",
+        shows: [
+            {
+                band: "Morbid Angel",
+                title: "Nottingham - 1989",
+                url: "rTVtEgBp-dI"
+            },
+            {
+                band: "Morbid Angel",
+                title: "Roskilde Festival - 2004",
+                url: "Lk_HLpznSVU"
+            }
+        ]
+    },
+    {
         name: "Motörhead",
         path: "/motorhead",
         genre: "Heavy Metal Speed Metal",
