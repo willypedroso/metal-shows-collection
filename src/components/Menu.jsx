@@ -6,15 +6,15 @@ import Link from "next/link";
 export default function Menu() {
     const [visibleMenu, setVisibleMenu] = useState(false);
     const [menu, setMenu] = useState("band");
-    const [textInput, setTextInput] = useState("");
+    const [search, setSearch] = useState("");
 
     function visibleChange() {
         setVisibleMenu(!visibleMenu);
     }
 
-    const lowerTextInput = textInput.toLowerCase();
+    const lowerSearch = search.toLowerCase();
 
-    const filteredBands = bands.filter((band) => band.name.toLowerCase().startsWith(lowerTextInput));
+    const filteredBands = bands.filter((band) => band.name.toLowerCase().startsWith(lowerSearch));
 
     return (
         <nav className={visibleMenu ? "fixed top-0 left-0 h-[100vh] overflow-y-scroll overflow-x-clip min-w-[350px] w-1/5 bg-gray-900 text-white text-2xl" : "sticky text-center top-0 mb-[-70px] left-2 w-16"}>
@@ -31,7 +31,7 @@ export default function Menu() {
                     : false}
                 
                 {visibleMenu && menu == "band" ?
-                <input className="w-[250px] align-middle ml-[40px] mt-3 mb-1 text-black" placeholder="Search" type="text" value={textInput} onChange={e => setTextInput(e.target.value)}/>
+                <input className="w-[250px] align-middle ml-[40px] mt-3 mb-1 text-black" placeholder="Search" type="text" value={search} onChange={e => setSearch(e.target.value)}/>
                 : false}
 
                 {visibleMenu && menu == "band" ? filteredBands == "" ? <li className="font-creeper bg-black text-orange-500
