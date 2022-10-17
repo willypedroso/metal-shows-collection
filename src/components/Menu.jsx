@@ -22,7 +22,8 @@ export default function Menu() {
                 <li className="font-creeper
                         min-w-full mt-2 p-3
                         bg-orange-600 text-black cursor-pointer sticky top-0" onClick={visibleChange}>{!visibleMenu ? "Menu" : "Close Menu"}</li>
-                       
+
+            {/* Selector Bands or Genres */}           
                 {visibleMenu ? 
                     <select className="bg-black text-orange-600 text-[2rem] min-w-[300px] mt-3 font-creeper ml-3" onChange={e => setMenu(e.target.value)} defaultValue="">
                         <option value="" disabled>Bands or genres</option>
@@ -30,17 +31,22 @@ export default function Menu() {
                         <option value="genre">Genres</option>
                     </select>
                     : false}
-                
+
+
+             {/* Search Field */}   
                 {visibleMenu && menu == "band" ?
                 <input className="w-[250px] align-middle ml-[40px] mt-3 mb-1 text-black" placeholder="Search" type="text" value={search} onChange={e => setSearch(e.target.value)}/>
                 : false}
 
-                {visibleMenu ? 
+
+            {/* All Collection Option */}
+                {visibleMenu && filteredBands.length == bands.length ? 
                     <Link href="/"><li className="font-creeper bg-black text-orange-600
                     min-w-full mt-2 p-3 cursor-pointer
                     hover:bg-orange-600 hover:text-black" onClick={visibleChange}>All Collection</li></Link>
                 : false}
 
+            {/* Bands Menu */}
                 {visibleMenu && menu == "band" ? filteredBands == "" ? <li className="font-creeper bg-black text-orange-500
                         min-w-full mt-2 p-3">Sorry! No bands match this search in our collection yet...</li> : filteredBands.map((band, i) => (
                     <Link key={i} href={band.path}><li className="font-creeper bg-black
@@ -48,6 +54,7 @@ export default function Menu() {
                         hover:bg-orange-600 hover:text-black" onClick={visibleChange}>{band.name}</li></Link>
                 )): false}
 
+            {/* Genres Menu */}
                 {visibleMenu && menu == "genre" ? genres.map((genre, i) => (
                     <Link key={i} href={genre.path}><li className="font-creeper bg-black
                         min-w-full mt-2 p-3 cursor-pointer
