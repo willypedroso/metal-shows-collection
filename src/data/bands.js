@@ -130,6 +130,11 @@ const bands = [
                 band: "Helloween",
                 title: "Köln - 1992",
                 url: "vILAdjGmfaU"
+            },
+            {
+                band: "Helloween",
+                title: "Rock in Rio - 2019",
+                url: "knXNvxAsddo"
             }
         ]
     },
