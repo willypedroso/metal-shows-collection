@@ -25,7 +25,7 @@ export default function Menu() {
                         
                 {visibleMenu ? 
                     <select className="bg-black text-orange-600 text-[2rem] min-w-[300px] mt-3 font-creeper ml-3" onChange={e => setMenu(e.target.value)} defaultValue="">
-                        <option value="">Bands or genres</option>
+                        <option value="" disabled>Bands or genres</option>
                         <option value="band">Bands</option>
                         <option value="genre">Genres</option>
                     </select>
