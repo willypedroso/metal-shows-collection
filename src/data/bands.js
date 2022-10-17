@@ -434,6 +434,11 @@ const bands = [
         shows: [
             {
                 band: "Sepultura",
+                title: "Monsters of Rock - 1994",
+                url: "guwkHprgXhA"
+            },
+            {
+                band: "Sepultura",
                 title: "PinkPop - 1996",
                 url: "CBwgf8NRFhI"
             }
