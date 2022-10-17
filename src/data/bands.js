@@ -375,6 +375,23 @@ const bands = [
         ]
     },
     {
+        name: "Pentagram",
+        path: "/pentagram",
+        genre: "Doom Metal",
+        shows: [
+            {
+                band: "Pentagram",
+                title: "Rock Hard Festival - 2015",
+                url: "nCouZT0_Fgc"
+            },
+            {
+                band: "Pentagram",
+                title: "Free & Easy Festival - 2022",
+                url: "h8vQHLlrdmY"
+            },
+        ]
+    },
+    {
         name: "Running Wild",
         path: "/runningwild",
         genre: "Heavy Metal Power Metal Speed Metal",
