@@ -21,10 +21,11 @@ export default function Menu() {
             <ul>
                 <li className="font-creeper
                         min-w-full mt-2 p-3
-                        bg-orange-600 text-black cursor-pointer sticky top-0" onClick={visibleChange}>{!visibleMenu ? "Menu" : "Close"}</li>
+                        bg-orange-600 text-black cursor-pointer sticky top-0" onClick={visibleChange}>{!visibleMenu ? "Menu" : "Close Menu"}</li>
                         
                 {visibleMenu ? 
-                    <select className="bg-black text-orange-600 text-[2rem] min-w-[300px] mt-3 font-creeper ml-3" onChange={e => setMenu(e.target.value)}>
+                    <select className="bg-black text-orange-600 text-[2rem] min-w-[300px] mt-3 font-creeper ml-3" onChange={e => setMenu(e.target.value)} defaultValue="">
+                        <option value="">Bands or genres</option>
                         <option value="band">Bands</option>
                         <option value="genre">Genres</option>
                     </select>

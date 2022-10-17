@@ -218,6 +218,11 @@ const bands = [
         shows: [
             {
                 band: "Krisiun",
+                title: "Rock in Rio - 2013",
+                url: "yYr5W7-wlBY"
+            },
+            {
+                band: "Krisiun",
                 title: "Rockfun - 2020",
                 url: "PQ6UlYOxh6M"
             },
@@ -225,11 +230,6 @@ const bands = [
                 band: "Krisiun",
                 title: "Kiss Club - 2020",
                 url: "QjVIhbJFulw"
-            },
-            {
-                band: "Krisiun",
-                title: "Rock in Rio - 2013",
-                url: "yYr5W7-wlBY"
             }
         ]
     },
