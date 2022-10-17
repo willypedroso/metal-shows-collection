@@ -22,7 +22,7 @@ export default function Menu() {
                 <li className="font-creeper
                         min-w-full mt-2 p-3
                         bg-orange-600 text-black cursor-pointer sticky top-0" onClick={visibleChange}>{!visibleMenu ? "Menu" : "Close Menu"}</li>
-                        
+                       
                 {visibleMenu ? 
                     <select className="bg-black text-orange-600 text-[2rem] min-w-[300px] mt-3 font-creeper ml-3" onChange={e => setMenu(e.target.value)} defaultValue="">
                         <option value="" disabled>Bands or genres</option>
@@ -33,6 +33,12 @@ export default function Menu() {
                 
                 {visibleMenu && menu == "band" ?
                 <input className="w-[250px] align-middle ml-[40px] mt-3 mb-1 text-black" placeholder="Search" type="text" value={search} onChange={e => setSearch(e.target.value)}/>
+                : false}
+
+                {visibleMenu ? 
+                    <Link href="/"><li className="font-creeper bg-black text-orange-600
+                    min-w-full mt-2 p-3 cursor-pointer
+                    hover:bg-orange-600 hover:text-black" onClick={visibleChange}>All Collection</li></Link>
                 : false}
 
                 {visibleMenu && menu == "band" ? filteredBands == "" ? <li className="font-creeper bg-black text-orange-500
