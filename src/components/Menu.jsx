@@ -38,15 +38,13 @@ export default function Menu() {
                         min-w-full mt-2 p-3">Sorry! No bands match this search in our collection yet...</li> : filteredBands.map((band, i) => (
                     <Link key={i} href={band.path}><li className="font-creeper bg-black
                         min-w-full mt-2 p-3 cursor-pointer
-                        hover:bg-orange-600 hover:text-black
-                        hover:translate-x-2" onClick={visibleChange}>{band.name}</li></Link>
+                        hover:bg-orange-600 hover:text-black" onClick={visibleChange}>{band.name}</li></Link>
                 )): false}
 
                 {visibleMenu && menu == "genre" ? genres.map((genre, i) => (
                     <Link key={i} href={genre.path}><li className="font-creeper bg-black
                         min-w-full mt-2 p-3 cursor-pointer
-                        hover:bg-orange-600 hover:text-black
-                        hover:translate-x-2" onClick={visibleChange}>{genre.genre}</li></Link>
+                        hover:bg-orange-600 hover:text-black" onClick={visibleChange}>{genre.genre}</li></Link>
                 )): false}
             </ul>
         </nav>
