@@ -380,6 +380,18 @@ const bands = [
         ]
     },
     {
+        name: "Pantera",
+        path: "/pantera",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Pantera",
+                title: "Monsters of Rock - 1992",
+                url: "lVXmvEN6py4"
+            }
+        ]
+    },
+    {
         name: "Pentagram",
         path: "/pentagram",
         genre: "Doom Metal",
