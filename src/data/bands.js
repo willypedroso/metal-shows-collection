@@ -76,6 +76,23 @@ const bands = [
         ]
     },
     {
+        name: "Candlemass",
+        path: "/candlemass",
+        genre: "Doom Metal",
+        shows: [
+            {
+                band: "Candlemass",
+                title: "Fryshuset - 1990",
+                url: "LIFZUPl6V0c"
+            },
+            {
+                band: "Candlemass",
+                title: "Rockpalast - 2017",
+                url: "aLCSGZEjMSM"
+            }
+        ]
+    },
+    {
         name: "Cannibal Corpse",
         path: "/cannibalcorpse",
         genre: "Death Metal",
