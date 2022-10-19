@@ -17,12 +17,12 @@ export default function Card(props) {
             
             {/* Band title with link */}
             {bandPath != "" ? <Link href={bandPath}>
-                <h2 className="text-center bg-black text-white block w-auto p-2 mt-[7px] rounded-md self-center
-                 font-creeper text-2xl cursor-pointer hover:text-orange-500">{props.titleBand}</h2>
+                <h2 className="text-center bg-black text-white block w-auto p-[5px] mt-[7px] rounded-md self-center mb-[-7px]
+                 font-creeper text-[1.2rem] cursor-pointer hover:text-orange-500">{props.titleBand}</h2>
             </Link> : false}
             
             {/* Show title */}
-            <h2 className="text-center mt-1 mb-[-5px] font-creeper text-2xl">{props.titleShow}</h2>
+            <h2 className="text-center mt-1 mb-[-5px] font-creeper text-[1.6rem]">{props.titleShow}</h2>
             
             {/* Youtube video */}
             <span className="self-center">
