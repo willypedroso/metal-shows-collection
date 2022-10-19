@@ -17,7 +17,7 @@ export default function Card(props) {
             
             {/* Band title with link */}
             {bandPath != "" ? <Link href={bandPath}>
-                <h2 className="text-center bg-black text-white block w-auto p-[5px] mt-[7px] rounded-md self-center mb-[-7px]
+                <h2 className="text-center bg-black text-white block w-auto p-[5px] mt-[10px] rounded-md self-center mb-[-7px]
                  font-creeper text-[1.2rem] cursor-pointer hover:text-orange-500">{props.titleBand}</h2>
             </Link> : false}
             
