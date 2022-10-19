@@ -60,6 +60,9 @@ export default function Menu() {
                         min-w-full mt-2 p-3 cursor-pointer
                         hover:bg-orange-600 hover:text-black" onClick={visibleChange}>{genre.genre}</li></Link>
                 )): false}
+
+                {/* Empty li to fix mobile last item hide bug */}
+                <li className="font-creeper bg-gray-900 min-w-full mt-2 p-5"></li>
             </ul>
         </nav>
     )
