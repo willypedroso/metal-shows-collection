@@ -22,7 +22,7 @@ export default function Card(props) {
             </Link> : false}
             
             {/* Show title */}
-            <h2 className="text-center mt-1 mb-[-5px] font-creeper text-[1.6rem]">{props.titleShow}</h2>
+            <h2 className="text-center mt-1 mb-[-10px] font-creeper text-[1.6rem]">{props.titleShow}</h2>
             
             {/* Youtube video */}
             <span className="self-center">
