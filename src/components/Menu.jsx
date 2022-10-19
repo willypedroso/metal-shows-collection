@@ -62,7 +62,7 @@ export default function Menu() {
                 )): false}
 
                 {/* Empty li to fix mobile last item hide bug */}
-                <li className="font-creeper bg-gray-900 min-w-full mt-2 p-5"></li>
+                {visibleMenu ? <li className="font-creeper bg-gray-900 min-w-full mt-2 p-5"></li> : false}
             </ul>
         </nav>
     )
