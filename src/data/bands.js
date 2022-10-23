@@ -420,6 +420,11 @@ const bands = [
                 band: "Nuclear Assault",
                 title: "Hammersmith - 1989",
                 url: "5zdZVOUcF5c"
+            },
+            {
+                band: "Nuclear Assault",
+                title: "Wacken - 2015",
+                url: "WMyx5gT63Lw"
             }
         ]
     },
