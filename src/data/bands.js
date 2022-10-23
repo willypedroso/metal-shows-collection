@@ -1,5 +1,22 @@
 const bands = [
     {
+        name: "Accept",
+        path: "/accept",
+        genre: "Heavy Metal",
+        shows: [
+            {
+                band: "Accept",
+                title: "Japan - 1985",
+                url: "rGTc2brOkos"
+            },
+            {
+                band: "Accept",
+                title: "Wacken - 2014",
+                url: "rCGX9nmnfFU"
+            }
+        ]
+    },
+    {
         name: "Angra",
         path: "/angra",
         genre: "Power Metal",
