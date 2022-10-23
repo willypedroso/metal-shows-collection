@@ -52,6 +52,11 @@ const bands = [
                 band: "Anthrax",
                 title: "Wacken - 2019",
                 url: "QcGXJ7ZgvPk"
+            },
+            {
+                band: "Anthrax",
+                title: "Rockpalast - 2019",
+                url: "J5XPIbU21io"
             }
         ]
     },
