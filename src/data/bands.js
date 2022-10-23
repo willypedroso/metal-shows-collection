@@ -247,7 +247,12 @@ const bands = [
                 band: "Kreator",
                 title: "East Berlin - 1990",
                 url: "3CuPIz5r0uU"
-            }
+            },
+            {
+                band: "Kreator",
+                title: "Chile - 2018",
+                url: "4Ogmlw4oFo4"
+            },
         ]
     },
     {
