@@ -440,6 +440,11 @@ const bands = [
             },
             {
                 band: "Obituary",
+                title: "Wacken - 2015",
+                url: "L6ka5BF1onY"
+            },
+            {
+                band: "Obituary",
                 title: "Bloodstock - 2017",
                 url: "heHrSkccb3E"
             }
