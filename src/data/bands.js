@@ -138,6 +138,11 @@ const bands = [
         shows: [
             {
                 band: "Celtic Frost",
+                title: "San Diego - 1986",
+                url: "agvQZphR3yg"
+            },
+            {
+                band: "Celtic Frost",
                 title: "Hammersmith - 1989",
                 url: "9bul5LSBkeE"
             }
