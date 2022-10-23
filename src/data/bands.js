@@ -412,6 +412,18 @@ const bands = [
         ]
     },
     {
+        name: "Nuclear Assault",
+        path: "/nuclearassault",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Nuclear Assault",
+                title: "Hammersmith - 1989",
+                url: "5zdZVOUcF5c"
+            }
+        ]
+    },
+    {
         name: "Obituary",
         path: "/obituary",
         genre: "Death Metal",
