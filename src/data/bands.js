@@ -497,6 +497,33 @@ const bands = [
         ]
     },
     {
+        name: "Possessed",
+        path: "/possessed",
+        genre: "Death Metal Thrash Metal",
+        shows: [
+            {
+                band: "Possessed",
+                title: "Long Beach - 1987",
+                url: "13-6gDVkyYc"
+            },
+            {
+                band: "Possessed",
+                title: "Baltimore - 1987",
+                url: "ul8s9klYRMA"
+            },
+            {
+                band: "Possessed",
+                title: "Bloodstock - 2017",
+                url: "pZTJg7MXQMg"
+            },
+            {
+                band: "Possessed",
+                title: "Rockpalast - 2019",
+                url: "o3UJRH6xuWE"
+            }
+        ]
+    },
+    {
         name: "Running Wild",
         path: "/runningwild",
         genre: "Heavy Metal Power Metal Speed Metal",
