@@ -542,6 +542,23 @@ const bands = [
         ]
     },
     {
+        name: "Torture Squad",
+        path: "/torturesquad",
+        genre: "Thrash Metal Death Metal",
+        shows: [
+            {
+                band: "Torture Squad",
+                title: "Led Slay - 2003",
+                url: "4BaVp-MItpY"
+            },
+            {
+                band: "Torture Squad",
+                title: "Showlivre - 2018",
+                url: "6FdZaKkWIag"
+            }
+        ]
+    },
+    {
         name: "Venom",
         path: "/venom",
         genre: "Heavy Metal Black Metal",
