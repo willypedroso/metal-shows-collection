@@ -132,6 +132,18 @@ const bands = [
         ]
     },
     {
+        name: "Celtic Frost",
+        path: "/celticfrost",
+        genre: "Thrash Metal Death Metal Black Metal",
+        shows: [
+            {
+                band: "Celtic Frost",
+                title: "Hammersmith - 1989",
+                url: "9bul5LSBkeE"
+            }
+        ]
+    },
+    {
         name: "Death",
         path: "/death",
         genre: "Death Metal",
