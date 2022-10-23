@@ -521,6 +521,11 @@ const bands = [
                 band: "Sodom",
                 title: "Braunschweig - 1988",
                 url: "FmWRkb_x5po"
+            },
+            {
+                band: "Sodom",
+                title: "Rockpalast - 2018",
+                url: "DN8LM3WE5Eg"
             }
         ]
     },
