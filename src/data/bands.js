@@ -418,6 +418,11 @@ const bands = [
         shows: [
             {
                 band: "Nuclear Assault",
+                title: "London - 1987",
+                url: "VoyBeZJJVVE"
+            },
+            {
+                band: "Nuclear Assault",
                 title: "Hammersmith - 1989",
                 url: "5zdZVOUcF5c"
             },
