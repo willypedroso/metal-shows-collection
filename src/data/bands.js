@@ -172,9 +172,14 @@ const bands = [
         shows: [
             {
                 band: "Dio",
+                title: "Holland - 1983",
+                url: "KmMPfKAIVVc"
+            },
+            {
+                band: "Dio",
                 title: "Philadelphia - 1986",
                 url: "-bRuT4aOsWI"
-            }
+            },
         ]
     },
     {
