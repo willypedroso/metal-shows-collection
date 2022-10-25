@@ -166,6 +166,18 @@ const bands = [
         ]
     },
     {
+        name: "Dio",
+        path: "/dio",
+        genre: "Heavy Metal",
+        shows: [
+            {
+                band: "Dio",
+                title: "Philadelphia - 1986",
+                url: "-bRuT4aOsWI"
+            }
+        ]
+    },
+    {
         name: "Exodus",
         path: "/exodus",
         genre: "Thrash Metal",
