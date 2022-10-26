@@ -177,9 +177,14 @@ const bands = [
             },
             {
                 band: "Dio",
+                title: "Tokyo - 1985",
+                url: "-p2rdSVskZ8"
+            },
+            {
+                band: "Dio",
                 title: "Philadelphia - 1986",
                 url: "-bRuT4aOsWI"
-            },
+            }
         ]
     },
     {
