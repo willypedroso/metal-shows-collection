@@ -238,6 +238,11 @@ const bands = [
             },
             {
                 band: "Iron Maiden",
+                title: "Gothenburg - 2005",
+                url: "IG5VNDZGYck"
+            },
+            {
+                band: "Iron Maiden",
                 title: "Rock am Ring - 2014",
                 url: "qVcKRF5y7s0"
             }
