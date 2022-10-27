@@ -149,6 +149,18 @@ const bands = [
         ]
     },
     {
+        name: "Crypta",
+        path: "/crypta",
+        genre: "Death Metal",
+        shows: [
+            {
+                band: "Crypta",
+                title: "Wacken - 2022",
+                url: "krP8l-g_ZoI"
+            }
+        ]
+    },
+    {
         name: "Death",
         path: "/death",
         genre: "Death Metal",
