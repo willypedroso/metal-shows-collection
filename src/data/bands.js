@@ -155,9 +155,14 @@ const bands = [
         shows: [
             {
                 band: "Crypta",
+                title: "Scena - 2022",
+                url: "UxSL3Wehz5c"
+            },
+            {
+                band: "Crypta",
                 title: "Wacken - 2022",
                 url: "krP8l-g_ZoI"
-            }
+            },
         ]
     },
     {
