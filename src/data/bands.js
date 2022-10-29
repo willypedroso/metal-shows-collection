@@ -689,6 +689,18 @@ const bands = [
         ]
     },
     {
+        name: "Unleashed",
+        path: "/unleashed",
+        genre: "Death Metal",
+        shows: [
+            {
+                band: "Unleashed",
+                title: "Poland - 1995",
+                url: "T4O6oFisfvA"
+            }
+        ]
+    },
+    {
         name: "Venom",
         path: "/venom",
         genre: "Heavy Metal Black Metal",
