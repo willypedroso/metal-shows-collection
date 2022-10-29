@@ -194,9 +194,14 @@ const bands = [
             },
             {
                 band: "Deicide",
+                title: "London - 2006",
+                url: "2Y9MTIX0rVA"
+            },
+            {
+                band: "Deicide",
                 title: "Hellfest - 2016",
                 url: "RZu4JMJWkX8"
-            },
+            }
         ]
     },
     {
