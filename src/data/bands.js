@@ -183,6 +183,18 @@ const bands = [
         ]
     },
     {
+        name: "Deicide",
+        path: "/deicide",
+        genre: "Death Metal",
+        shows: [
+            {
+                band: "Deicide",
+                title: "New Jersey - 1997",
+                url: "BNTX8iN2cxc"
+            }
+        ]
+    },
+    {
         name: "Dio",
         path: "/dio",
         genre: "Heavy Metal",
