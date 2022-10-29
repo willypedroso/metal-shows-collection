@@ -205,6 +205,18 @@ const bands = [
         ]
     },
     {
+        name: "Entombed",
+        path: "/entombed",
+        genre: "Death Metal",
+        shows: [
+            {
+                band: "Entombed",
+                title: "London - 1992",
+                url: "yuZ1UKKsMCs"
+            }
+        ]
+    },
+    {
         name: "Exodus",
         path: "/exodus",
         genre: "Thrash Metal",
