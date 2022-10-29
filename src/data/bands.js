@@ -213,6 +213,11 @@ const bands = [
                 band: "Entombed",
                 title: "London - 1992",
                 url: "yuZ1UKKsMCs"
+            },
+            {
+                band: "Entombed",
+                title: "Hellfest - 2016",
+                url: "iAoOJomyZSo"
             }
         ]
     },
