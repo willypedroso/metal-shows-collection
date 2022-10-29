@@ -191,7 +191,12 @@ const bands = [
                 band: "Deicide",
                 title: "New Jersey - 1997",
                 url: "BNTX8iN2cxc"
-            }
+            },
+            {
+                band: "Deicide",
+                title: "Hellfest - 2016",
+                url: "RZu4JMJWkX8"
+            },
         ]
     },
     {
