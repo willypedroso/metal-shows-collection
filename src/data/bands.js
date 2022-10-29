@@ -697,6 +697,11 @@ const bands = [
                 band: "Unleashed",
                 title: "Poland - 1995",
                 url: "T4O6oFisfvA"
+            },
+            {
+                band: "Unleashed",
+                title: "Wacken - 2019",
+                url: "paQVygAguYw"
             }
         ]
     },
