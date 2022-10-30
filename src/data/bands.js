@@ -69,6 +69,11 @@ const bands = [
                 band: "Autopsy",
                 title: "Rotterdam - 1990",
                 url: "BGBg3dAGKZk"
+            },
+            {
+                band: "Autopsy",
+                title: "Hellfest - 2017",
+                url: "r6G_cUAkROU"
             }
         ]
     },
