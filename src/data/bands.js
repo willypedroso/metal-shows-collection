@@ -61,6 +61,18 @@ const bands = [
         ]
     },
     {
+        name: "Autopsy",
+        path: "/autopsy",
+        genre: "Death Metal",
+        shows: [
+            {
+                band: "Autopsy",
+                title: "Rotterdam - 1990",
+                url: "BGBg3dAGKZk"
+            }
+        ]
+    },
+    {
         name: "Black Sabbath",
         path: "/blacksabbath",
         genre: "Heavy Metal Doom Metal",
