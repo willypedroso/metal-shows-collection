@@ -166,6 +166,18 @@ const bands = [
         ]
     },
     {
+        name: "Coroner",
+        path: "/coroner",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Coroner",
+                title: "East Berlin - 1990",
+                url: "Fc16Ga3x0l4"
+            }
+        ]
+    },
+    {
         name: "Crypta",
         path: "/crypta",
         genre: "Death Metal",
