@@ -173,7 +173,7 @@ const bands = [
             {
                 band: "Coroner",
                 title: "East Berlin - 1990",
-                url: "Fc16Ga3x0l4"
+                url: "8cnRGZ3oFsc"
             },
             {
                 band: "Coroner",
