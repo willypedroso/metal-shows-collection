@@ -174,6 +174,11 @@ const bands = [
                 band: "Coroner",
                 title: "East Berlin - 1990",
                 url: "Fc16Ga3x0l4"
+            },
+            {
+                band: "Coroner",
+                title: "Hellfest - 2017",
+                url: "eCEH-ghJZmQ"
             }
         ]
     },
