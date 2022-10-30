@@ -247,6 +247,11 @@ const bands = [
                 band: "Destruction",
                 title: "Braunschweig - 1988",
                 url: "_97HkpWv0fI"
+            },
+            {
+                band: "Destruction",
+                title: "Rockpalast - 2016",
+                url: "Q4ALTJth3t4"
             }
         ]
     },
