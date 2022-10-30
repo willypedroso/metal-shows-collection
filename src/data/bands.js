@@ -239,6 +239,18 @@ const bands = [
         ]
     },
     {
+        name: "Destruction",
+        path: "/destruction",
+        genre: "Thrash Metal",
+        shows: [
+            {
+                band: "Destruction",
+                title: "Braunschweig - 1988",
+                url: "_97HkpWv0fI"
+            }
+        ]
+    },
+    {
         name: "Dio",
         path: "/dio",
         genre: "Heavy Metal",
