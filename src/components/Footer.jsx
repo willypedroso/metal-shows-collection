@@ -5,7 +5,7 @@ export default function Footer() {
             <p>Contact us for sugestions and bug warnings</p>
 
             {/* Hidden message to visitors */}
-            <h1 className="mt-3"><strong>Stay Metal!</strong></h1>
+            <h1 className="mt-3 text-[0.8rem]"><strong>R.I.P. Chapolinator <small>?</small></strong></h1>
         </div>
     )
 }
